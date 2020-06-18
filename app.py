@@ -12,7 +12,7 @@ app = Flask(__name__)
 def home():
     """ Primary End Point """
     n_com = 100
-    top_n = 5
+    top_n = 10
     page = requests.get("https://news.ycombinator.com/newcomments")
     soup = BeautifulSoup(page.content, features='html.parser')
     com_scores = []
