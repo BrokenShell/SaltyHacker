@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response, request
+from flask import Flask, render_template, make_response, request, jsonify
 from bs4 import BeautifulSoup
 import requests
 from nlp import sentiment_score
