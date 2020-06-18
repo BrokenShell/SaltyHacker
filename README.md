@@ -4,10 +4,10 @@
 ## Scrape HackerNews
 
 ## API
-Get:
+- Get:
     - Username
     - List of comments
-Put:
+- Put:
     - Username
     - Negativity Score
     - Salty Rank
