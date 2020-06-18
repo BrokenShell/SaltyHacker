@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>The Salty Hacker</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet"
+          href="static/css/form.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1><a href="/">The Salty Hacker</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <footer>
+        <p>&copy; 2020 Robert Sharp<span class="right">&lambda;</span></p>
+    </footer>
+</div>
+</body>
+</html>

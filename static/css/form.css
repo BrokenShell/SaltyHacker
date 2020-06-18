@@ -1,0 +1,18 @@
+table {
+    width: 400px;
+    color: #aaaaaa;
+    margin: 0 100px;
+}
+table th {
+    text-align: left;
+    min-width: 40px;
+}
+table td {
+    max-width: 120px;
+}
+table thead {
+    border-bottom: 1px solid #666666;
+}
+table tbody tr:nth-of-type(1) {
+    background-color: #333;
+}

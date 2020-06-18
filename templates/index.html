@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Top {{ num }} Most Salty Hacker Comments</h1>
+
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salty Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for rank, user, score in data %}
+        <tr>
+            <td>{{ rank }}</td>
+            <td>{{ user }}</td>
+            <td>{{ score }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

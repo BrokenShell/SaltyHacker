@@ -1,0 +1,5 @@
+vaderSentiment~=3.3.2
+Flask~=1.1.2
+bs4~=0.0.1
+beautifulsoup4~=4.9.1
+requests~=2.23.0
