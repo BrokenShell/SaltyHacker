@@ -1,4 +1,4 @@
-# Salty Miner
+# Salty Hacker
 
 ## Layout
 ## Scrape HackerNews
