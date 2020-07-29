@@ -1,9 +1,8 @@
 # Salty Hacker
+## HackerNews
 
-## Layout
-## Scrape HackerNews
 
-## API
+## App API
 - Get:
     - Username
     - List of comments
@@ -11,6 +10,7 @@
     - Username
     - Negativity Score
     - Salty Rank
+
 
 ## Sentiment Analysis Model
 - vaderSentiment
