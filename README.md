@@ -12,4 +12,9 @@
     - Negativity Score
     - Salty Rank
 
-## S.A. Model
+## Sentiment Analysis Model
+- vaderSentiment
+    - SentimentIntensityAnalyzer
+
+
+## Deployed to Heroku -> https://salty-hacker.herokuapp.com/
